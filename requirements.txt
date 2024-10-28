@@ -2,6 +2,6 @@ streamlit
 streamlit_extras
 google-generativeai
 PyPDF2
-python-dotnev
+python-dotenv
 Pillow
 matplotlib
