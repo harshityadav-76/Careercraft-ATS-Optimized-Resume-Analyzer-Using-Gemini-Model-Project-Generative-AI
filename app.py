@@ -74,17 +74,17 @@ st.markdown(
         border-radius: 15px;
         
     }
-    img[src="http://localhost:8516/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
+    img[src="https://terrible-spooky-corpse-7vpx4gxq74xpfqp-8501.app.github.dev:443/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
         position:absolute;
         left:25px;
         top:40px;
         width:100px;
     }
-    img[src="C:\\Users\\hp\\Desktop\\Project\\image2.jpg"]{
+    img[style="width: 287.203px;"]{
         position:absolute;
         left:-20px;
     }
-    img[src="http://localhost:8516/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
+    img[src="https://terrible-spooky-corpse-7vpx4gxq74xpfqp-8501.app.github.dev:443/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
         position:absolute;
         right:-50px;
         width:100px;
@@ -156,7 +156,7 @@ st.markdown(
     .description {
         text-align: justify;
         font-weight: 300;
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
     .offerings {
         font-weight: 300;
@@ -208,7 +208,7 @@ with col1:
                 </p>
                 """, unsafe_allow_html=True)
 with col2:
-     img1 = Image.open("C:\\Users\\hp\\Desktop\\Project\\image1.jpg")
+     img1 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI/images/image1.jpg")
      st.image(img1, use_column_width=True)
 
 avs.add_vertical_space(10)
@@ -229,7 +229,7 @@ with col2:
                 </ul>
                 """, unsafe_allow_html=True)
 with col1:
-   img2 = Image.open("C:\\Users\\hp\\Desktop\\Project\\image2.jpg")
+   img2 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI/images/image2.jpg")
    st.image(img2, use_column_width=True, caption="Optimize Your Resume")
 
 avs.add_vertical_space(10)
@@ -272,7 +272,7 @@ with col1:
         else:
             st.error("Please provide both the job description and upload your resume.")
 with col2:
-    img3 = Image.open("C:\\Users\\hp\\Desktop\\Project\\image3.jpg")
+    img3 = Image.open("/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI/images/image3.jpg")
     st.image(img3, use_column_width=True, caption="Career Guidance")
 
 avs.add_vertical_space(10)
@@ -282,7 +282,7 @@ with col2:
     import base64
 
 # Load video file and encode it to base64
-video_path = "C:\\Users\\hp\\Desktop\\Project\\Advance Analysis AI Video.mp4"
+video_path = "/workspaces/Careercraft-ATS-Optimized-Resume-Analyzer-Using-Gemini-Model-Project-Generative-AI/images/Advance Analysis AI Video.mp4"
 with open(video_path, "rb") as video_file:
     video_base64 = base64.b64encode(video_file.read()).decode("utf-8")
 
@@ -312,6 +312,7 @@ st.markdown("""
                     <p class='faq-answer'>Answer: Yes, CareerCraft provides personalized recommendations to optimize your resume for specific job openings, including suggestions for missing keywords and alignment with desired job roles.</p>
                 </div>
                 """, unsafe_allow_html=True)
+
 
 
 avs.add_vertical_space(10)
