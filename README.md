@@ -66,6 +66,7 @@ cd resume-ats-tracker`
 - Analyze the match percentage, keywords, and summary to optimize your resume accordingly.
 
 ## Deployment Link
+[Resume Analyzer](https://careercraftresumeanalyzer.streamlit.app/)
 
 ## Acknowledgments
 - Streamlit for providing a user-friendly framework.
