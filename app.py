@@ -74,7 +74,7 @@ st.markdown(
         border-radius: 15px;
         
     }
-    img[src="https://carrercraftresumeanalyzerproject.streamlit.app:443/~/+/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
+    img[src="https://careercraftresumeanalyzer.streamlit.app:443/~/+/media/33fd7a949eea48174eef7209b4f9b6445c7e2cc5c694ea7a6f14b5e7.jpg"]{
         position:absolute;
         left:25px;
         top:40px;
