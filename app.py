@@ -84,7 +84,7 @@ st.markdown(
         position:absolute;
         left:-20px;
     }
-    img[src="https://carrercraftresumeanalyzerproject.streamlit.app:443/~/+/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
+    img[src="https://careercraftresumeanalyzer.streamlit.app:443/~/+/media/c2d373f3e6c34e1aec9ad8b4e52d5cc229c52ca03f6b7c65cbe4b8d2.jpg"]{
         position:absolute;
         right:-50px;
         width:100px;
