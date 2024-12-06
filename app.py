@@ -54,7 +54,7 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
     .stApp {
-        background-color:green;
+        background-color:#ADD8E6;
         color: black;
         font-family: 'Roboto', sans-serif;
     }
