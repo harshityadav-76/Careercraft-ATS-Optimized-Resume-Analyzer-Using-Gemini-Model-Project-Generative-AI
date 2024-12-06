@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 load_dotenv()  # Load all our environment variables
 
-genai.configure(api_key=os.getenv("AIzaSyAo0_PImZNg_t9ROd4PkeY1tnNF96KaOyk"))
+genai.configure(api_key=os.getenv(""))
 
 def get_gemini_response(input):
     try:
